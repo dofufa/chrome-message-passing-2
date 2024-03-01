@@ -1,7 +1,7 @@
 {
-  "name": "Message Passing Exemple 1",
+  "name": "Message Passing Exemple 2",
   "version": "0.1",
-  "description": "Message passing between service worker (as receiver) and popup (as sender) in MV3",
+  "description": "Message passing between service worker (as sender) and content script (as receiver) in MV3",
 
  "action": {
     "default_icon": "icon/icon16.png",
