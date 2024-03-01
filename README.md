@@ -14,7 +14,7 @@ This Chrome browser extension example demonstrates simple message passing betwee
 *script *                * worker  *
 *       * response----->>*         *
 *********                ***********
-sender                   receiver
+receiver                 sender
 ```
 
 ### References
