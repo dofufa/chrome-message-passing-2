@@ -9,7 +9,7 @@ chrome.action.onClicked.addListener((tab) => {
 	console.log(tab);
 	console.log(tab.id);
 	console.log(message);
-	chrome.tabs.sendMessage(tab.id, {"message": message}, (response) => {
+	chrome.tabs.sendMessage(tab.id, {'message': message}, (response) => {
   	console.log('response received by service-worker, from content-script')
   	console.log('response: %o', response);
 		console.log();
