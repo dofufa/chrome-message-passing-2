@@ -1,5 +1,5 @@
 # chrome-message-passing-2
-Basic Chrome extension message passing between content script and service worker
+Basic Chrome extension message passing between service worker (as sender) and content script (as receiver)
 
 ### Summary
 
