@@ -19,7 +19,7 @@ sender                   receiver
 
 ### References
   + [Chrome extension service workers][g_sw]
-  + Chrome extension ontent script
+  + [Chrome extension content script][g_cs]
 ---
 [g_sw]: https://developer.chrome.com/docs/extensions/develop/concepts/service-workers
-
+[g_cs]: https://developer.chrome.com/docs/extensions/develop/concepts/content-scripts
