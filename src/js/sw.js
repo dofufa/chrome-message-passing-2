@@ -1,5 +1,5 @@
 // sw.js
-// job	: Receives message from content script context
+// job	: Sends message to content script context
 // lic 	: https://opensource.org/license/mit
 // repo : https://github.com/dofufa/chrome-message-passing-2
 console.log('ext-service-worker');
