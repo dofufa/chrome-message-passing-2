@@ -10,9 +10,9 @@ This Chrome browser extension example demonstrates simple message passing betwee
 
 ```
 *********                ***********
-*content*<<----message   * service *
+*content*<<---[1]message * service *
 *script *                * worker  *
-*       *   response-->> *         *
+*       * [2]response-->>*         *
 *********                ***********
 sender                   receiver
 ```
