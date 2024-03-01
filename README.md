@@ -1,17 +1,17 @@
-# chrome-message-passing-1
-Basic Chrome extension message passing between popup and service worker
+# chrome-message-passing-2
+Basic Chrome extension message passing between content script and service worker
 
 ### Summary
 
 
-Hi! 👋
+Hello! 👋
 
-This Chrome browser extension example demonstrates simple message passing between two contexts: the **popup** context and the **service worker** context.
+This Chrome browser extension example demonstrates simple message passing between two contexts: the **content script** context and the **service worker** context.
 
 ```
 *********                ***********
-*       * message------>>* service *
-* popup *                * worker  *
+*content* message------>>* service *
+*script *                * worker  *
 *       * <<----response *         *
 *********                ***********
 sender                   receiver
@@ -19,8 +19,7 @@ sender                   receiver
 
 ### References
   + [Chrome extension service workers][g_sw]
-  + [Chrome extension popup][g_popup]
-
+  + Chrome extension ontent script
 ---
 [g_sw]: https://developer.chrome.com/docs/extensions/develop/concepts/service-workers
-[g_popup]: https://developer.chrome.com/docs/extensions/develop/ui/add-popup
+
